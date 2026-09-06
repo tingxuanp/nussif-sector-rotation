@@ -4,7 +4,7 @@ Tests whether unusual divergence between defensive and high-beta sectors can giv
 
 ---
 
-## The Core Idea
+## The Main Idea
 
 Professional investors often reposition ahead of market stress. Two observable patterns tend to appear before a broad market sell-off:
 
@@ -16,7 +16,7 @@ On days when this rotation is occurring, `defensive_return > high_beta_return`. 
 
 ## Sectors Used
 
-### Defensive basket (low-beta)
+### Defensive, low-beta basket
 
 | ETF | Sector           |
 | --- | ---------------- |
@@ -26,7 +26,7 @@ On days when this rotation is occurring, `defensive_return > high_beta_return`. 
 
 Beta ≈ 0.5–0.7.
 
-### High-beta basket (cyclical)
+### High-beta basket
 
 | ETF | Sector                 |
 | --- | ---------------------- |
