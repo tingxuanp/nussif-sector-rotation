@@ -83,7 +83,7 @@ signal(t) = max(mean_20day_return(Defensive) − mean_20day_return(HighBeta), 0)
             expressed in percentage points
 ```
 
-Uses `pct_change(20)` - the cumulative return over the past 20 trading days - for each basket, then takes the directional spread. Less noise from single-day sector moves. But because the threshold is still the 95th percentile of the distribution, which is now in percentage-point units, it is harder to trigger — only very sustained rotation crosses it. This produces very few warning-zone days (0.4% of trading days), which lowers recall.
+Uses `pct_change(20)` - the cumulative return over the past 20 trading days - for each basket, then takes the directional spread. Less noise from single-day sector moves. 
 
 #### Alt-C — Log-ratio Z-score
 
