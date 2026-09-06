@@ -1,4 +1,4 @@
-# Sector Rotation Early Warning System
+# Sector Rotation Detection
 
 Tests whether unusual divergence between defensive and high-beta sectors can give early warning of S&P 500 drawdowns.
 
